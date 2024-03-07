@@ -1,0 +1,43 @@
+.formLogin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  .titleLogin{
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .itemInLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    margin-bottom: 20px;
+    label{
+      margin-bottom: 10px;
+    }
+    input{
+      background-color: transparent;
+      border: solid 1px wheat;
+      padding: 10px;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+  .submitLogin{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    button{
+      width: auto;
+      min-width: 100px;
+      height: auto;
+      background-color: wheat;
+      padding: 10px 16px;
+      border-radius: 3px;
+      color: black;
+    }
+  }
+}

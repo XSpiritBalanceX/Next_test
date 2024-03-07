@@ -1,0 +1,50 @@
+.formNewSeries{
+  border: solid 2px wheat;
+  width: 50%;
+  margin: 40px auto;
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+  .titleNewSeries{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .formItems{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    margin: 0 auto 20px auto;
+    label{
+      margin-bottom: 10px;
+    }
+    input, textarea{
+      width: 100%;
+      background-color: transparent;
+      border: solid 1px wheat;
+      padding: 10px;
+      font-family: "Roboto", sans-serif;
+    }
+    input{
+      height: 40px;
+    }
+    textarea{
+      height: 80px;
+
+    }
+  }
+  .submitNewSeries{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 40px;
+    button{
+      width: 100px;
+      height: auto;
+      background-color: wheat;
+      padding: 10px 16px;
+      border-radius: 3px;
+      color: black;
+    }
+  }
+}

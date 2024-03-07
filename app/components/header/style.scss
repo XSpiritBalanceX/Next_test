@@ -1,0 +1,16 @@
+.headerContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  a{
+    flex: 0 0 auto;
+    margin-left: 30px;
+    text-align: center;
+    padding: 12px;
+  }
+  .activeLink{
+    border-bottom: solid 2px wheat;
+  }
+}

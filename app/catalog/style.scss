@@ -1,0 +1,43 @@
+.catalogContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .itemCatalog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 20px 0;
+    border: solid 2px wheat;
+    width: 50%;
+    padding: 10px 0;
+    h3{
+      margin-bottom: 10px;
+    }
+    img{
+      max-width: 20em;
+      max-height: 30em;
+      width: 100%;
+      height: 30em;
+    }
+    .linkButton{
+      margin-top: 20px;
+      background-color: wheat;
+      padding: 10px 16px;
+      border-radius: 3px;
+      color: black;
+    }
+  }
+  .newSeriesButton{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    a{
+      background-color: wheat;
+      padding: 10px 16px;
+      border-radius: 3px;
+      color: black;
+    }
+  }
+}

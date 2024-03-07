@@ -1,0 +1,42 @@
+.registrationForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  .titleRegistration{
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .registrationItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    margin-bottom: 20px;
+    label{
+      margin-bottom: 10px;
+    }
+    input{
+      background-color: transparent;
+      border: solid 1px wheat;
+      padding: 10px;
+      font-family: "Roboto", sans-serif;
+    }
+  }
+.registrationButton{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  button{
+    width: auto;
+    height: auto;
+    background-color: wheat;
+    padding: 10px 16px;
+    border-radius: 3px;
+    color: black;
+  }
+}
+}
